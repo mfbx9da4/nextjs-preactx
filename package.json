@@ -11,11 +11,11 @@
 	},
 	"dependencies": {
 		"@next/bundle-analyzer": "^9.1.1",
-		"cross-env": "^5.2.0",
-		"module-alias": "^2.2.1",
-		"next": "^9.0.5",
-		"preact": "^10.0.0-rc.1",
-		"preact-render-to-string": "5.0.6",
+		"cross-env": "^6.0.3",
+		"module-alias": "^2.2.2",
+		"next": "^9.1.1",
+		"preact": "^10.0.1",
+		"preact-render-to-string": "^5.1.0",
 		"preact-ssr-prepass": "^1.0.0"
 	},
 	"_moduleAliases": {

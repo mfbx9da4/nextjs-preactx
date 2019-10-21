@@ -1,11 +1,12 @@
 import { h } from "preact"
+
 import { jsx } from "@emotion/core"
+import Link from "next/link"
 import Head from "next/head"
 import styled from "@emotion/styled"
-import { keyframes, css } from "@emotion/core"
+import { keyframes, css, Global } from "@emotion/core"
 import { Text } from "../src/components/Text"
 import { Box } from "../src/components/Grid"
-import Link from "next/link"
 
 const basicStyles = css`
 	background-color: white;
@@ -67,17 +68,17 @@ export default () => {
 	return (
 		<div>
 			<Head>
-				<title>Cloup</title>
+				<title>Web</title>
 			</Head>
 			<Box px={[3, 4]} py={[5, 6]} color="white" bg="blue">
-				<Heading fontSize={[4, 5, 6]}>Homepage</Heading>
+				<Heading fontSize={[4, 5, 6]}>Page 2</Heading>
 				<Text fontWeight="bold">
-					<Link href="/web">
-						<a>Second page click here</a>
+					<Link href="/">
+						<a>Go to homepage</a>
 					</Link>
 				</Text>
 			</Box>
-			<Basic>Cool Styles</Basic>
+			<Basic>Page 2 Cool Styles</Basic>
 			<Combined>
 				With <code>:hover</code>.
 			</Combined>

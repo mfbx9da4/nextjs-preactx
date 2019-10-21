@@ -10,13 +10,17 @@
 		"start": "cross-env NODE_ENV=production node server.js"
 	},
 	"dependencies": {
+		"@emotion/core": "^10.0.21",
+		"@emotion/styled": "^10.0.17",
 		"@next/bundle-analyzer": "^9.1.1",
 		"cross-env": "^6.0.3",
+		"emotion-theming": "^10.0.19",
 		"module-alias": "^2.2.2",
 		"next": "^9.1.1",
 		"preact": "^10.0.1",
 		"preact-render-to-string": "^5.1.0",
-		"preact-ssr-prepass": "^1.0.0"
+		"preact-ssr-prepass": "^1.0.0",
+		"styled-system": "^5.1.2"
 	},
 	"_moduleAliases": {
 		"react": "node_modules/preact/compat",
